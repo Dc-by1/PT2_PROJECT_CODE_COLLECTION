@@ -8,7 +8,7 @@ for testParkingLot.cpp-> g++ testParkingLot.cpp ParkingLot.cpp ParkingSlot.cpp T
 
 for testParkingSlot-> g++ testParkingSlot.cpp ParkingSlot.cpp Vehicle.cpp -o testParkingSlot.exe
 
-for testVehicle -> g++ Vehicle.cpp testVehicle.cpp -o testApp
+for testVehicle -> g++ Vehicle.cpp testVehicle.cpp -o testVehicle.exe
 
 for testPricingCalculator.cpp -> g++ testPricingCalculator.cpp PricingCalculator.cpp Vehicle.cpp -o testPricingCalculator.exe
 
