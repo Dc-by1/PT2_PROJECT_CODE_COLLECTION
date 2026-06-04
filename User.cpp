@@ -1,23 +1,24 @@
 #include "User.hpp"
 
-// User Class Implementations
+//Constructor
 User::User(string r, string p, string s) : role(r), password(p), driverStatus(s) {}
 
+//Destructor
 User::~User() {
     cout << "[SYSTEM] User object (" << role << ") destroyed." << endl;
 }
 
-// Accessors
+//Accessors
 string User::getRole() const { return role; }
 string User::getPassword() const { return password; }
 string User::getDriverStatus() const { return driverStatus; }
 
-// Mutators
+//Mutators
 void User::setRole(string r) { role = r; }
 void User::setPassword(string p) { password = p; }
 void User::setDriverStatus(string s) { driverStatus = s; }
 
-// Login logic
+//Login logic
 bool User::login() {
     if (role == "Admin") {
         string input;
